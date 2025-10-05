@@ -24,7 +24,12 @@ const messages = [
     { text: "Anh sẽ là 'đèn hộ mệnh' dẫn em đi chơi nhé", img: "https://i.pinimg.com/originals/e8/9f/b9/e89fb9588567a3d1f89d881d9e6abcb9.gif" }, 
     { text: "Em chính là chiếc lồng đèn đặc biệt nhất của anh", img: "./style/img/Anh (5).jpg" }, 
     { text: "Trung Thu này không cần nhiều, chỉ cần em thôi 😘", img: "./style/img/Anh (6).jpg" }, 
-    { text: "Em chính là điều ước của anh dưới trăng 🌌", img: "./style/img/Anh (7).jpg" }
+    { text: "Em chính là điều ước của anh dưới trăng 🌌", img: "./style/img/Anh (7).jpg" },
+    { text: "Trung Thu này, anh ước mình sẽ mãi bên nhau 💑", img: "./style/img/Anh (2).jpg" },
+    { text: "Chúc em luôn xinh đẹp và hạnh phúc nhé! 🌸", img: "https://i.pinimg.com/originals/3a/5e/7e/3a5e7e2f1f6e4c3f1e8b9c6f0c8e4b1a.gif" },
+    { text: "Mong rằng Trung Thu này sẽ mang lại nhiều niềm vui cho em! 🎉", img: "https://i.pinimg.com/originals/5b/7e/3c/5b7e3c1f4e6e4c3f1e8b9c6f0c8e4b1a.gif" },
+    { text: "Chúc em có một mùa Trung Thu ấm áp bên gia đình và bạn bè! 🏮", img: "https://i.pinimg.com/originals/7c/8e/4d/7c8e4d2f1f6e4c3f1e8b9c6f0c8e4b1a.gif"
+    }
 ];
 
 const lanternsContainer = document.getElementById("lanternsContainer");
