@@ -143,32 +143,3 @@ body {
     #popup p { font-size: 14px; }
     .lantern { width: 14vw; max-width: 50px; min-width: 30px; }
 }
-
-/* Wish modal styles */
-#wishModal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0.9);
-    background: #fffef8;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    z-index: 210;
-    width: 90%;
-    max-width: 420px;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.25s ease;
-    border: 3px solid #ffb74d;
-}
-#wishModal.show { opacity: 1; transform: translate(-50%, -50%) scale(1); pointer-events: auto; }
-#wishModal h3 { font-family: 'Poppins', sans-serif; margin-bottom: 8px; color: #333; }
-#wishModal input#wishName { width: 100%; padding: 8px; border-radius: 8px; border: 1px solid #e0e0e0; margin-bottom: 8px; font-family: inherit; }
-#wishModal textarea { width: 100%; resize: vertical; padding: 8px; border-radius: 8px; border: 1px solid #e0e0e0; font-family: inherit; }
-.wishActions { margin-top: 10px; display: flex; gap: 8px; justify-content: center; }
-.wishActions button { padding: 8px 12px; border-radius: 8px; border: none; cursor: pointer; font-weight: 600; }
-#saveWishBtn { background: #ff9800; color: white; }
-#cancelWishBtn { background: #e0e0e0; color: #333; }
-#saveWishBtn:hover { background: #e68900 }
-#cancelWishBtn:hover { background: #d5d5d5 }
