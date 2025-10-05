@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mid-Autumn Festival</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <img class="moon" src="./style/img/moon.png" alt="Moon">
+  <div id="lanternsContainer"></div>
+  <div id="overlay"></div>
+
+  <div id="popup">
+    <p id="popupText"></p>
+    <img id="popupImg" src="" alt="popup image">
+    <br>
+    <button onclick="closePopup()">Đóng</button>
+  </div>
+  
+  <!-- Wish modal shown when user clicks "Thả đèn" -->
+  <div id="wishModal">
+    <h3>Viết điều ước của bạn</h3>
+    <input id="wishName" type="text" placeholder="Tên của bạn (tùy chọn)">
+    <textarea id="wishInput" placeholder="Hãy viết điều ước..." rows="4"></textarea>
+    <div class="wishActions">
+      <button id="saveWishBtn">Lưu & Thả</button>
+      <button id="cancelWishBtn">Huỷ</button>
+    </div>
+  </div>
+
+  <button id="releaseBtn">Thả đèn</button>
+  <audio id="bgMusic" src="./style/LoiTheDuoiAnhTrang.mp3" loop></audio>
+
+  <script src="./style/script.js"></script>
+</body>
+</html>
