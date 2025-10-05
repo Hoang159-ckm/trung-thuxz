@@ -3,7 +3,9 @@
 body {
     margin: 0;
     height: 100vh;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    /* Background image with a subtle dark overlay to keep foreground elements readable */
+    background: radial-gradient(ellipse at bottom, rgba(27,39,53,0.55) 0%, rgba(9,10,15,0.7) 100%),
+                url('./img/background.jpg') center/cover no-repeat;
     overflow: hidden;
     font-family: 'Pacifico', cursive;
 }
@@ -26,10 +28,10 @@ body {
 
 .moon {
     position: absolute;
-    top: 5%;
-    right: 5%;
-    width: 25vw;
-    max-width: 120px;
+    top: 5.5%;
+    left: 8%;
+    width: 35vw;
+    max-width: 900px;
     min-width: 60px;
     filter: drop-shadow(0 0 20px rgba(255, 255, 200, 0.8))
             drop-shadow(0 0 40px rgba(255, 255, 180, 0.6))
